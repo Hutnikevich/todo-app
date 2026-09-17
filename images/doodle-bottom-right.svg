@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="260" height="240" viewBox="90 15 150 225" fill="none">
+  <g fill="#7C98D0" stroke-linecap="round" stroke-linejoin="round">
+    <text x="118" y="58" font-size="24" font-family="Segoe Print, Comic Sans MS, cursive" transform="rotate(-8 118 58)">Good</text>
+    <text x="122" y="96" font-size="24" font-family="Segoe Print, Comic Sans MS, cursive" transform="rotate(-8 122 96)">tasks</text>
+    <text x="98" y="135" font-size="24" font-family="Segoe Print, Comic Sans MS, cursive" transform="rotate(-8 98 135)">brighter</text>
+    <text x="128" y="173" font-size="24" font-family="Segoe Print, Comic Sans MS, cursive" transform="rotate(-8 128 173)">days</text>
+    <g transform="translate(190 180)">
+      <circle cx="0" cy="0" r="12" fill="#7FB2FF"/>
+      <g stroke="#7FB2FF" stroke-width="4">
+        <path d="M0 -23V-34"/><path d="M0 23V34"/><path d="M23 0H34"/><path d="M-23 0H-34"/>
+        <path d="M16 -16L24 -24"/><path d="M-16 16L-24 24"/><path d="M16 16L24 24"/><path d="M-16 -16L-24 -24"/>
+      </g>
+    </g>
+    <path d="M126 218C151 201 184 198 210 205" stroke="#8CB7FF" stroke-width="4" fill="none"/>
+  </g>
+</svg>

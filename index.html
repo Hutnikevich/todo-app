@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Todo App</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="scene">
+
+        <img class="decor decor-left" src="images/doodle-left.svg" alt="">
+        <img class="plant" src="images/plant-illustration.svg" alt="">
+        <img class="decor decor-right" src="images/doodle-bottom-right.svg" alt="">
+
+        <div class="todo-window">
+
+            <main class="todo-app">
+
+                <button class="theme-btn" type="button" role="switch" aria-checked="false" aria-label="Dark mode" title="Switch to dark theme">
+                    <span class="theme-label">Dark mode</span>
+
+                    <span class="theme-track" aria-hidden="true">
+                        <span class="theme-thumb"></span>
+                        <img class="theme-sun" src="images/sun-icon.svg" alt="">
+                        <img class="theme-moon" src="images/moon-icon.svg" alt="">
+                    </span>
+                </button>
+
+                <img class="header-note" src="images/doodle-top-right.svg" alt="">
+
+                <header class="todo-header">
+                    <div class="todo-title">
+                        <img class="todo-logo" src="images/todo-logo.svg" alt="">
+                        <h1>Todo App</h1>
+                    </div>
+
+                    <p>Stay organized, one task at a time.</p>
+                </header>
+
+                <form class="todo-form">
+
+                    <div class="input-wrap">
+                        <img class="input-icon" src="images/add-icon.svg" alt="">
+
+                        <input class="todo-input" type="text" placeholder="Add a new task..." aria-label="New task">
+                    </div>
+
+                    <button class="add-btn" type="submit">
+                        Add Task
+                    </button>
+
+                </form>
+
+                <div class="todo-filters" role="group" aria-label="Filter tasks">
+                    <button class="active" type="button" data-filter="all" aria-pressed="true">All</button>
+                    <button type="button" data-filter="active" aria-pressed="false">Active</button>
+                    <button type="button" data-filter="completed" aria-pressed="false">Completed</button>
+                </div>
+
+                <div class="todo-progress">
+                    <span class="progress-label">Your progress</span>
+                    <span class="progress-text">0 of 0 completed</span>
+
+                    <div class="progress-track" role="progressbar" aria-label="Completed tasks" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+                        <div class="progress-fill"></div>
+                    </div>
+                </div>
+
+                <div class="task-area">
+                    <div class="todo-list"></div>
+
+                    <div class="empty-state" hidden>
+                        <img src="images/todo-logo.svg" alt="">
+
+                        <p class="empty-message" role="status">A little space for a fresh start</p>
+                        <p class="empty-hint">Add your first task above. One thing at a time.</p>
+                    </div>
+                </div>
+
+                <footer class="todo-footer">
+                    <span class="task-count" aria-live="polite">0 tasks left</span>
+
+                    <button class="clear-btn" type="button">
+                        <img src="images/trash-icon.svg" alt="">
+                        Clear completed
+                    </button>
+                </footer>
+
+            </main>
+
+        </div>
+
+    </div>
+
+    <div class="toast" hidden>
+        <span class="toast-message" role="status"></span>
+        <button class="undo-btn" type="button">Undo</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

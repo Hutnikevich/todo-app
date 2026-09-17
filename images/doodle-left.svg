@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="220" viewBox="0 0 240 220" fill="none">
+  <g fill="#7C98D0" stroke="#7C98D0" stroke-linecap="round" stroke-linejoin="round">
+    <text x="38" y="70" font-size="28" font-family="Segoe Print, Comic Sans MS, cursive" transform="rotate(-12 38 70)">A</text>
+    <text x="36" y="108" font-size="26" font-family="Segoe Print, Comic Sans MS, cursive" transform="rotate(-12 36 108)">more organized</text>
+    <text x="88" y="145" font-size="26" font-family="Segoe Print, Comic Sans MS, cursive" transform="rotate(-12 88 145)">you</text>
+    <path d="M114 160C106 146 88 149 88 164C88 174 101 181 114 193C126 181 140 174 140 164C140 149 122 146 114 160Z" fill="#75A7F8" stroke="none"/>
+    <path d="M48 210C81 188 124 186 160 192" stroke-width="4" fill="none"/>
+  </g>
+</svg>
